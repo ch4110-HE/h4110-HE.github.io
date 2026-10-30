@@ -1,0 +1,9 @@
+
+.venv/
+.DS_Store
+.ipynb_checkpoints/
+_build/
+
+# Make sure Labs aren't included
+Lab*.ipynb
+lab*.ipynb
