@@ -11,4 +11,5 @@ project:
 site:
   template: book-theme
   options:
-    base_url: /h4110-HE.github.io/
+    base_url: https://ch4110-he.github.io/h4110-HE.github.io/
+    
