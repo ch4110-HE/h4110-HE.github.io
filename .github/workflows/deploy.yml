@@ -36,6 +36,8 @@ jobs:
 
       - name: Build website
         run: jupyter book build --html
+        env:
+          BASE_URL: /h4110-HE.github.io/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
