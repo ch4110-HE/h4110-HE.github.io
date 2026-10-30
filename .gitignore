@@ -7,3 +7,6 @@ _build/
 # Make sure Labs aren't included
 Lab*.ipynb
 lab*.ipynb
+
+# MyST build outputs
+_build
