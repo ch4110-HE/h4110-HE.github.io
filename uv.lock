@@ -299,6 +299,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "ipykernel" },
     { name = "jupyter-book" },
+    { name = "jupyter-core" },
     { name = "nbformat" },
     { name = "pandas" },
     { name = "plotly" },
@@ -308,7 +309,8 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "ipykernel", specifier = ">=7.4.0" },
-    { name = "jupyter-book", specifier = ">=2.1.7" },
+    { name = "jupyter-book", specifier = ">=2,<3" },
+    { name = "jupyter-core", specifier = ">=5.9.1" },
     { name = "nbformat", specifier = ">=5.11.1" },
     { name = "pandas", specifier = ">=3.1.0" },
     { name = "plotly", specifier = ">=7.1.0" },
