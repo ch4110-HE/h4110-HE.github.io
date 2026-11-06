@@ -9,6 +9,7 @@ project:
   github: https://github.com/ch4110-HE/h4110-HE.github.io
   toc:
     - file: index.md
+    - file: lecture_16_example.ipynb
     - file: project_1.ipynb
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
